@@ -48,5 +48,5 @@ void loop() {
   Serial.print(data.presure);
   Serial.println(" pa");
 
-  delay(2000);  // Wait 1 second before updating again
+  delay(2000);  // Wait 2 second before updating again
 }
