@@ -32,12 +32,12 @@ void loop() {
 
   // Display temperature on the first row of the LCD
   lcd.setCursor(0, 0);  // Set cursor to the first row
-  lcd.print("Temp: ");
+  lcd.print("Temp C°: ");
   lcd.print(data.temperature, 2);  // Print temperature with 2 decimal places
 
   // Display pressure on the second row of the LCD
   lcd.setCursor(0, 1);  // Set cursor to the second row
-  lcd.print("Pres: ");
+  lcd.print("Pa: ");
   lcd.print(data.presure, 2);  // Print pressure with 2 decimal places
 
   // Debugging via Serial Monitor
