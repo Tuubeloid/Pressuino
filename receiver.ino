@@ -17,7 +17,7 @@ void setup() {
 }
 
 void loop() {
-  minPressure = map(analogRead(potMinPin), 0, 1023, 0, 100000); // Example: 0 to 100000 Pa
+  minPressure = map(analogRead(potMinPin), 0, 1023, 0, 100000);
   maxPressure = map(analogRead(potMaxPin), 0, 1023, 0, 100000);
 
   // Ensure min is always lower than max
