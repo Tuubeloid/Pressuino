@@ -1,5 +1,5 @@
-#include <DFRobot_LWLP.h>  // Include the pressure sensor library
-#include <LiquidCrystal.h> // Include the LCD library
+#include <DFRobot_LWLP.h>
+#include <LiquidCrystal.h>
 
 // Initialize the LCD with the numbers of the interface pins
 LiquidCrystal lcd(4, 6, 10, 11, 12, 13);
